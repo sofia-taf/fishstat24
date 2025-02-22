@@ -50,7 +50,7 @@
 #' # Regions within continents
 #' table(country$georegion, country$continent)
 #'
-#' # Select 'country' entries have non-zero production
+#' # Select 'country' entries that have non-zero production
 #' nonzero <- unique(production$country[production$value > 0])
 #' country.nz <- country[country$country %in% nonzero,]
 #' length(unique(country.nz$country))
