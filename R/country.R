@@ -53,7 +53,7 @@
 #' # Select 'country' entries that have non-zero production
 #' nonzero <- unique(production$country[production$value > 0])
 #' country.nz <- country[country$country %in% nonzero,]
-#' length(unique(country.nz$country))
+#' length(country.nz$country)
 #'
 #' # Only 'country' and 'country_name' are always defined
 #' cbind(sapply(country, function(x) all(x != "")))
